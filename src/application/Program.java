@@ -16,6 +16,7 @@ public class Program {
 		System.out.println("Number:");
 		int number = scan.nextInt();
 		System.out.println("Holder:");
+		scan.nextLine();
 		String holder = scan.nextLine();
 		System.out.println("Initial balance:");
 		Double initialBalance = scan.nextDouble();
